@@ -49,9 +49,30 @@ body {
     box-shadow: var(--shadow-card);
 }
 
+img {
+    border: solid 4px #107fd2;
+}
+
 .subtitle {
     font-size: 28px;
     font-weight: 600;
+    text-align: center;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 8em;
+    background: #fff;
+    padding: 15px 23px;
+    color: #111;
+    text-align: center;
+}
+footer span a{
+    color:  #107fd2;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
 }
 
 @media(max-width: 1200px) {
